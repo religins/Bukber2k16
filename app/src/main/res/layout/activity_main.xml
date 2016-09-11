@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.sch.smktelkom_mlg.tugas1.xirpl1029.bukber2k16.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Registrasi" />
+
+
+    <ImageView
+        android:id="@+id/imageViewBukber"
+        android:layout_width="312dp"
+        android:layout_height="187dp"
+        android:src="@drawable/bukber" />
+
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="235dp"
+            android:layout_height="31dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewAnda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda adalah" />
+
+    <RadioGroup
+        android:id="@+id/rgAnda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonAlumni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Alumni" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Siswa" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewAngk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angkatan" />
+
+    <Spinner
+        android:id="@+id/spinnerAngk"
+        android:layout_width="185dp"
+        android:layout_height="41dp"
+        android:entries="@array/Angkatan" />
+
+    <TextView
+        android:id="@+id/textViewDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datang bersama" />
+
+    <CheckBox
+        android:id="@+id/checkBoxKl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Keluarga" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Teman" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Lainnya" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Registrasi" />
+
+    <TextView
+        android:id="@+id/textViewHasilNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hasil" />
+
+    <TextView
+        android:id="@+id/textViewHasilAnda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda adalah" />
+
+    <TextView
+        android:id="@+id/textViewHasilAngkatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angkatan" />
+
+    <TextView
+        android:id="@+id/textViewHasilDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datang bersama" />
+
+</LinearLayout>
