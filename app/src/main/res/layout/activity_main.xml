@@ -41,7 +41,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.65"
-        android:text="Nama" />
+        android:text="Nama"
+        android:textColor="#040404" />
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -58,7 +59,8 @@
         android:id="@+id/textViewAnda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Anda adalah" />
+        android:text="Anda adalah"
+        android:textColor="#040404" />
 
     <RadioGroup
         android:id="@+id/rgAnda"
@@ -72,19 +74,21 @@
             android:checked="false"
             android:text="Alumni" />
 
-        <RadioButton
-            android:id="@+id/radioButtonSiswa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Siswa" />
     </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radioButtonSiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Siswa" />
 
     <TextView
         android:id="@+id/textViewAngk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Angkatan" />
+        android:text="Angkatan"
+        android:textColor="#040404" />
 
     <Spinner
         android:id="@+id/spinnerAngk"
@@ -96,7 +100,8 @@
         android:id="@+id/textViewDatang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Datang bersama" />
+        android:text="Datang bersama"
+        android:textColor="#040404" />
 
     <CheckBox
         android:id="@+id/checkBoxKl"
