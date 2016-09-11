@@ -14,16 +14,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.tugas1.xirpl1029.bukber2k16.MainActivity">
 
 
     <TextView
         android:id="@+id/textViewReg"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Registrasi" />
+        android:layout_gravity="center_horizontal"
+        android:text="Registrasi"
+        android:textColor="#0d024c" />
 
 
     <ImageView
@@ -36,11 +40,13 @@
         android:id="@+id/textViewNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="0.65"
         android:text="Nama" />
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight="1.15">
 
         <EditText
             android:id="@+id/editTextNama"
@@ -131,19 +137,19 @@
         android:id="@+id/textViewHasilAnda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Anda adalah" />
+        tools:text="Anda adalah" />
 
     <TextView
         android:id="@+id/textViewHasilAngkatan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Angkatan" />
+        tools:text="Angkatan" />
 
     <TextView
         android:id="@+id/textViewHasilDatang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Datang bersama" />
+        tools:text="Datang bersama" />
 
 </LinearLayout>
 </ScrollView>
